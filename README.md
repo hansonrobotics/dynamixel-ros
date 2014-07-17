@@ -1,7 +1,9 @@
 dynamixel-ros
 =============
 Requires:
-Dynamixel motor node in the workspace
+
+Dynamixel motor node in the workspace:
+
 git clone https://github.com/arebgun/dynamixel_motor
 
 

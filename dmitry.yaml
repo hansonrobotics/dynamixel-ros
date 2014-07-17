@@ -1,0 +1,60 @@
+rotate_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: rotate_joint
+    joint_speed: 1.17
+    motor:
+        id: 0
+        init: 2208
+        min: 1104
+        max: 3377
+pitch1_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: pitch1_joint
+    joint_speed: 0.2
+    motor:
+        id: 1
+        init: 3052
+        min: 2402
+        max: 3247
+roll_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: roll_joint
+    joint_speed: 0.3
+    motor:
+        id: 2
+        init: 2013
+        min: 1753
+        max: 2272
+pitch2_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: pitch2_joint
+    joint_speed: 0.2
+    motor:
+        id: 3
+        init: 2468
+        min: 1883
+        max: 2858
+jaw_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: jaw_joint
+    joint_speed: 0.2
+    motor:
+        id: 4
+        init: 490
+        min: 0
+        max: 1039

@@ -1,3 +1,4 @@
+# Copyright (c) 2014 Hanson Robotics, Ltd. 
 rotate_controller:
     controller:
         package: dynamixel_controllers

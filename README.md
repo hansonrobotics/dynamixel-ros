@@ -11,3 +11,4 @@ Launching:
 roslaunch dynamixel-ros dynamixel_dmitry.launch
 
 
+##### Copyright (c) 2014 Hanson Robotics, Ltd. 
